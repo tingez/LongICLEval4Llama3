@@ -20,4 +20,11 @@ There already exists several works about evaluation on this topic, including In-
 and Long-context LLMs Struggle with Long In-context Learning. 
 I picked up the common test dataset Banking-77 both included in these two papers, and do the evaluation on Llama3–70B-Instruct model.
 
-## build 
+## Process flow
+<img src="/resources/basic_process_flow.png" width="680"><BR>
+ 1. bash -x scripts/build_engine.sh
+ 1. bash -x scripts/config_repo.sh
+ 1. bash -x scripts/start_service.sh
+ 1. pip install -r requirements.txt
+ 1. python banking77_eval.py
+
