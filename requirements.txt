@@ -1,0 +1,8 @@
+typer
+requests
+tqdm
+python-decouple
+datasets
+pydantic
+langchain
+scikit-learn
